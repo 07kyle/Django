@@ -45,7 +45,7 @@ E:\env\kyle\Scripts>activate
 (testenv) E:\env>cd ..
 (testenv) E:\>django-admin startproject hello #(项目名称)
 
-##运行manage.py查看方法
+##启动manage.py
 > (testenv) E:\>cd hello
 (testenv) E:\hello>python manage.py 
 Type 'manage.py help <subcommand>' for help on a specific subcommand.
@@ -86,7 +86,7 @@ collectstatic
 findstatic
 runserver
 
-##运行manage.py runserver
+##启动项目
 >  (kyle) E:\hello>python manage.py runserver
 Performing system checks...
 System check identified no issues (0 silenced).
